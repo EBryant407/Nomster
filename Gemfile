@@ -71,5 +71,11 @@ gem 'will_paginate-bootstrap4', '~> 0.2.2'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
+
+  gem 'simple_form', '>= 4.1.0'
+  gem 'font-awesome-rails', '~> 4.7.0.5'
+  gem 'devise'
+  gem 'figaro'
+  gem 'geocoder'
 end
 
