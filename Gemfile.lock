@@ -235,7 +235,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
-  devise!
+  devise (~> 4.6.2)!
   figaro!
   font-awesome-rails (~> 4.7.0.5)!
   geocoder!

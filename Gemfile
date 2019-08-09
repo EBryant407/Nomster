@@ -75,7 +75,7 @@ source 'https://rails-assets.org' do
 
   gem 'simple_form', '>= 4.1.0'
   gem 'font-awesome-rails', '~> 4.7.0.5'
-  gem 'devise'
+  gem 'devise', '~> 4.6.2'
   gem 'figaro'
   gem 'geocoder'
 
