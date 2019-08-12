@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/plataformatec/simple_form.git
+  revision: 9d7921f38d8335c67adbf3dd430992a8ae4c0111
+  specs:
+    simple_form (4.1.0)
+      actionpack (>= 5.0)
+      activemodel (>= 5.0)
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -201,9 +209,6 @@ GEM
     selenium-webdriver (3.142.3)
       childprocess (>= 0.5, < 2.0)
       rubyzip (~> 1.2, >= 1.2.2)
-    simple_form (4.1.0)
-      actionpack (>= 5.0)
-      activemodel (>= 5.0)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
