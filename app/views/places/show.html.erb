@@ -75,6 +75,7 @@
 
       <%= simple_form_for @photo, url: place_photos_path(@place) do |f| %>
         <%= f.input :caption %>
+        <%= f.input :picture %>
         <%= f.submit "Add a Caption", class: 'btn btn-primary' %>
         <%= image_tag @photo.picture.url, class: 'img-fluid' %>
       <% end %>
