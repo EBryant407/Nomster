@@ -79,6 +79,7 @@ source 'https://rails-assets.org' do
   gem 'devise'
   gem 'figaro'
   gem 'geocoder'
+  gem 'carrierwave'
 
 end
 
