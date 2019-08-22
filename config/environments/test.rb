@@ -43,4 +43,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  ENV["AWS_ACCESS_KEY_ID"] = "AKIAZQ3YSOQEC3ASKAUW"
+  ENV["AWS_SECRET_ACCESS_KEY"] = "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"
 end
