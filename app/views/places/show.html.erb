@@ -77,7 +77,6 @@
         <%= f.input :caption %>
         <%= f.input :picture %>
         <%= f.submit "Add a Caption", class: 'btn btn-primary' %>
-        <%= image_tag @photo.picture.url, class: 'img-fluid' %>
       <% end %>
     </div>
   </div>
@@ -107,7 +106,7 @@
   <% @place.photos.each do |photo| %>
   <p>
   <%= photo.caption %>
-  <%= f.input :picture %>
+  <%= image_tag @photo.picture.url, class: 'img-fluid' %>
   </p>
   <% end %>
 </div>

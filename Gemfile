@@ -80,6 +80,7 @@ source 'https://rails-assets.org' do
   gem 'figaro'
   gem 'geocoder'
   gem 'carrierwave'
+  gem 'fog-aws'
 
 end
 
