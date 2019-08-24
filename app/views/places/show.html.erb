@@ -58,7 +58,7 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">Add a Comment!</h4>
       </div>
       
   
@@ -102,11 +102,14 @@
   <% end %>
 </div>
 
+
+
 <div class="row">
   <% @place.photos.each do |photo| %>
   <p>
   <%= photo.caption %>
   <%= image_tag @photo.picture.to_s, class: 'img-fluid' %>
   </p>
+  </div>
   <% end %>
 </div>
