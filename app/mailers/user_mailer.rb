@@ -2,7 +2,7 @@ class UserMailer < ApplicationMailer
 
   def welcome_email
    @user = params[:user]
-   @url = 'no-reply@nomsterapp.com'
-   mail(to: Ebryant407@yahoo.com, subject: "A comment has been added to your place!")
+   @url = 'ericsnomster@gmail.com'
+   mail(to: ericsnomster@gmail.com, subject: "A comment has been added to your place!")
   end
 end
