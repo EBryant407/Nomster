@@ -75,7 +75,7 @@ source 'https://rails-assets.org' do
 
   gem 'simple_form', github: 'plataformatec/simple_form'
 
-  gem 'font-awesome-rails', '~> 4.7.0.5'
+  # gem 'font-awesome-rails', '~> 4.7.0.5'
   gem 'devise'
   gem 'figaro'
   gem 'geocoder'
