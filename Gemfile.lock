@@ -302,7 +302,7 @@ DEPENDENCIES
   devise!
   figaro!
   fog-aws!
-  font-awesome-rails (~> 4.7.0.5)!
+  font-awesome-rails (~> 4.7.0.5)
   geocoder!
   jbuilder (~> 2.5)
   jquery-rails
