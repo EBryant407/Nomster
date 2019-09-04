@@ -70,15 +70,16 @@ gem 'will_paginate', '~> 3.1'
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 gem 'will_paginate-bootstrap4', '~> 0.2.2'
 gem 'font-awesome-rails', '~> 4.7.0.5'
+gem 'simple_form' 
+gem 'devise'
+gem 'figaro'
+gem 'geocoder'
+gem 'carrierwave'
+gem 'fog-aws'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
-  gem 'simple_form', '>= 4.1.0'  
-  gem 'devise'
-  gem 'figaro'
-  gem 'geocoder'
-  gem 'carrierwave'
-  gem 'fog-aws'
+
 
 end
 
