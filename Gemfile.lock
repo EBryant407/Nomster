@@ -1,5 +1,4 @@
 GEM
-  remote: https://rubygems.org/
   remote: https://rails-assets.org/
   specs:
     actioncable (5.2.3)
@@ -54,8 +53,6 @@ GEM
     bcrypt (3.1.13-java)
     bindex (0.8.1)
     bootsnap (1.4.5)
-      msgpack (~> 1.0)
-    bootsnap (1.4.5-java)
       msgpack (~> 1.0)
     bootstrap (4.0.0.alpha6)
       autoprefixer-rails (>= 6.0.3)
@@ -159,7 +156,6 @@ GEM
     mimemagic (0.3.3)
     mini_magick (4.9.5)
     mini_mime (1.0.2)
-    mini_portile2 (2.4.0)
     minitest (5.11.3)
     msgpack (1.3.1)
     msgpack (1.3.1-java)
@@ -168,21 +164,11 @@ GEM
     multi_json (1.13.1)
     nio4r (2.5.1)
     nio4r (2.5.1-java)
-    nokogiri (1.10.4)
-      mini_portile2 (~> 2.4.0)
-    nokogiri (1.10.4-java)
-    nokogiri (1.10.4-x64-mingw32)
-      mini_portile2 (~> 2.4.0)
-    nokogiri (1.10.4-x86-mingw32)
-      mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     pg (1.1.4)
-    pg (1.1.4-x64-mingw32)
-    pg (1.1.4-x86-mingw32)
     popper_js (1.11.1)
     public_suffix (4.0.1)
     puma (3.12.1)
-    puma (3.12.1-java)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -260,8 +246,6 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2019.2)
-      tzinfo (>= 1.0.0)
     uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
     warden (1.2.8)
@@ -283,6 +267,24 @@ GEM
       will_paginate (~> 3.0, >= 3.0.0)
     xpath (3.2.0)
       nokogiri (~> 1.8)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile2 (2.6.1)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
+    nokogiri (1.12.5-java)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86-mingw32)
+      racc (~> 1.4)
+    racc (1.5.2)
+    racc (1.5.2-java)
+    tzinfo-data (1.2019.2)
+      tzinfo (>= 1.0.0)
 
 PLATFORMS
   java
